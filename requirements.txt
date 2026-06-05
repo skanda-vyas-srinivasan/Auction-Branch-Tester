@@ -1,0 +1,7 @@
+ecole
+pyscipopt
+torch-geometric
+numpy
+scipy
+pandas
+matplotlib
