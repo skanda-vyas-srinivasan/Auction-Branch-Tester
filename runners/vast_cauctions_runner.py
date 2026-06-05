@@ -83,7 +83,7 @@ SAMPLE_MANIFEST = ARTIFACT_DIR / "samples_cauctions_100_500_manifest.json"
 
 GITHUB_REPOSITORY = os.environ.get(
     "GITHUB_REPOSITORY",
-    "skanda-vyas-srinivasan/Branch-Learning-Auction-Distance-Anchor",
+    "skanda-vyas-srinivasan/Auction-Branch-Tester",
 )
 REMOTE_URL = "https://{token}@github.com/{repo}.git"
 
