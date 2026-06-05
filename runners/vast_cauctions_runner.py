@@ -59,7 +59,7 @@ VALID_SAMPLES = int(os.environ.get("L2B_VALID_SAMPLES", "20000"))
 TEST_SAMPLES = int(os.environ.get("L2B_TEST_SAMPLES", "0"))
 NODE_RECORD_PROB = float(os.environ.get("L2B_NODE_RECORD_PROB", "0.05"))
 SAMPLE_TIME_LIMIT = float(os.environ.get("L2B_SAMPLE_TIME_LIMIT", "3600"))
-N_JOBS = int(os.environ.get("L2B_N_JOBS", "8"))
+N_JOBS = int(os.environ.get("L2B_N_JOBS", "32"))
 
 MAX_EPOCHS = int(os.environ.get("L2B_MAX_EPOCHS", "1000"))
 EPOCH_SAMPLES = int(os.environ.get("L2B_EPOCH_SAMPLES", "10000"))
